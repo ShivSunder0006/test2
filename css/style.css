@@ -1,0 +1,155 @@
+.top{
+    margin-top: 10px;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logol{ 
+    display: flex;
+    height: 30px;
+
+}
+.logor > p {
+    margin: 6px 20px 0px 20px;
+}
+.logor{
+    display: flex;
+    height: 60px;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+}
+
+.infotype1{
+    /* border: 2px solid red; */
+    width: 52%;
+}
+.infotype2{
+    /* border: 2px solid red; */
+    width: 45%;
+    background-color: #F2F2F2;
+}
+
+.d1{
+    display: flex;
+    justify-content: space-around;
+}
+.d1 > span {
+    padding-top: 20px;
+}
+
+.email-holder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.email-holder > input[type="email"], .name1{
+    width: 330px;
+    height: 25px;
+    margin-bottom: 5px;
+}
+
+.d2{
+    padding-left: 114px;
+}
+
+.form-shipping{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.name2 > input{
+    width: 160px;
+    height: 25px;
+    margin-bottom: 5px;
+}
+.form-shipping > select{
+    width: 340px;
+    height: 25px;
+    margin-bottom: 5px;
+}
+#ip2{
+    margin-bottom: 50px;
+}
+#link{
+    display: flex;
+    width: 330px;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+#check{
+    background: #56B280;
+    border: none;
+    width: 150px;
+    height:  30px;
+    border-radius: 4px;
+    color: white;
+}
+#ll{
+    padding-top: 5px;
+    color: #56B280;
+}
+.img{
+    margin: 50px 0px 0px 50px;
+    width: 400px;
+}
+.img-head{
+    display: flex;
+}
+.img2{
+    padding-left: 60px;
+}
+.line{
+    margin: 25px 0px 25px 0px;
+    border: 1px solid #56b27f5b;
+    
+}
+.coupon , .st{
+    display: flex;
+    justify-content: space-between;
+}
+.coupon > input{
+    height:  30px;
+    width: 68%;
+}
+.coupon > button {
+    border: none;
+    background-color: #A8A8A8;
+    color: white;
+    border-radius : 4px;
+    width: 28%;
+}
+.end{
+    display: flex;
+    background-color: #272727;
+    width: 94%;
+    color: white;
+    margin-left: 40px;
+    padding-top: 50px;
+    padding-bottom:50px ;
+}
+.img-candle{
+    display: flex;
+}
+.base1 img{
+    width: 63px;
+}
+.base1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 56%;
+}
+.base2, .base3, .base4{
+    width: 12%;
+}
+.plag{
+    display: flex;
+    justify-content: space-around;
+    color: #5E6E89;
+}
+
